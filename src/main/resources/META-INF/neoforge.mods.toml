@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "MIT"
+
+[[mods]]
+modId = "lapisreservereborn"
+displayName = "Lapis Reserve Reborn"
+version = "${version}"
+displayURL = ""
+logoFile = "assets/icon.png"
+authors = "VesMaybeVesper"
+description = '''Hold Lapis in Enchanting Tables'''
+
+[[mixins]]
+config = "modtemplate.mixins.json"
+
+[[dependencies.modtemplate]]
+modId = "neoforge"
+type = "required"
+versionRange = "[1,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.modtemplate]]
+modId = "minecraft"
+type = "required"

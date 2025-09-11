@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "lapisreservereborn",
+  "name": "Lapis Reserve Reborn",
+  "version": "${version}",
+  "authors": ["VesMaybeVesper"],
+  "contact": {
+    "sources": "",
+    "issues": ""
+  },
+  "description": "Hold Lapis in Enchanting Tables",
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "modtemplate.accesswidener",
+  "entrypoints": {
+    "main": [
+      "dev.spagurder.modtemplate.fabric.FabricEntrypoint"
+    ]
+  },
+  "mixins": [
+    "modtemplate.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  }
+}

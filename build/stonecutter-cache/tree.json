@@ -1,0 +1,25 @@
+{
+    "stonecutter": "0.7-beta.4",
+    "vcs": "1.21.6-fabric",
+    "current": "1.21.6-fabric",
+    "branches": [
+        {
+            "id": "",
+            "path": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader"
+        }
+    ],
+    "nodes": [
+        {
+            "project": "1.21.6-fabric",
+            "version": "1.21.6",
+            "active": true,
+            "path": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader/versions/1.21.6-fabric"
+        },
+        {
+            "project": "1.21.6-neoforge",
+            "version": "1.21.6",
+            "path": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader/versions/1.21.6-neoforge"
+        }
+    ],
+    "flags": {}
+}
