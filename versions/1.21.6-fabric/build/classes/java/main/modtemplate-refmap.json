@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "dev/spagurder/modtemplate/mixin/EnchantScreenMixin": {
+      "<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1718;<init>(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+      "removed": "Lnet/minecraft/class_1718;method_7595(Lnet/minecraft/class_1657;)V"
+    },
+    "dev/spagurder/modtemplate/mixin/PlayerReserve": {
+      "load(Lnet/minecraft/world/level/storage/ValueInput$TypedInputList;)V": "Lnet/minecraft/class_1661;method_7397(Lnet/minecraft/class_11368$class_11369;)V",
+      "save(Lnet/minecraft/world/level/storage/ValueOutput$TypedOutputList;)V": "Lnet/minecraft/class_1661;method_7384(Lnet/minecraft/class_11372$class_11373;)V"
+    },
+    "dev/spagurder/modtemplate/mixin/ServerPlayerReserve": {
+      "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/spagurder/modtemplate/mixin/EnchantScreenMixin": {
+        "<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V": "Lnet/minecraft/class_1718;<init>(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+        "removed": "Lnet/minecraft/class_1718;method_7595(Lnet/minecraft/class_1657;)V"
+      },
+      "dev/spagurder/modtemplate/mixin/PlayerReserve": {
+        "load(Lnet/minecraft/world/level/storage/ValueInput$TypedInputList;)V": "Lnet/minecraft/class_1661;method_7397(Lnet/minecraft/class_11368$class_11369;)V",
+        "save(Lnet/minecraft/world/level/storage/ValueOutput$TypedOutputList;)V": "Lnet/minecraft/class_1661;method_7384(Lnet/minecraft/class_11372$class_11373;)V"
+      },
+      "dev/spagurder/modtemplate/mixin/ServerPlayerReserve": {
+        "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+      }
+    }
+  }
+}

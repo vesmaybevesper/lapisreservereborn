@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	dev/spagurder/modtemplate/mixin/EnchantScreenMixin	Lnet/minecraft/world/inventory/ContainerLevelAccess;	access	field_7813
+FIELD	dev/spagurder/modtemplate/mixin/PlayerReserve	Lnet/minecraft/core/NonNullList;	items	field_7547
+METHOD	dev/spagurder/modtemplate/mixin/PlayerReserve	(ILnet/minecraft/world/item/ItemStack;)V	setItem	method_5447

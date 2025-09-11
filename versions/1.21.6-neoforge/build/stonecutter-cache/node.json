@@ -1,0 +1,25 @@
+{
+    "project": "1.21.6-neoforge",
+    "version": "1.21.6",
+    "branch": {
+        "id": "",
+        "path": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader"
+    },
+    "root": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader",
+    "parameters": {
+        "constants": {
+            "fabric": false,
+            "neoforge": true
+        },
+        "dependencies": {
+            "": {
+                "type": "dev.kikugie.semver.data.SemanticVersion",
+                "components": [
+                    1,
+                    21,
+                    6
+                ]
+            }
+        }
+    }
+}

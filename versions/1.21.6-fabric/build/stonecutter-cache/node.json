@@ -1,0 +1,26 @@
+{
+    "project": "1.21.6-fabric",
+    "version": "1.21.6",
+    "active": true,
+    "branch": {
+        "id": "",
+        "path": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader"
+    },
+    "root": "C:/Users/cjame/Documents/Coding/Lapis Reserve Reborn Multiloader",
+    "parameters": {
+        "constants": {
+            "fabric": true,
+            "neoforge": false
+        },
+        "dependencies": {
+            "": {
+                "type": "dev.kikugie.semver.data.SemanticVersion",
+                "components": [
+                    1,
+                    21,
+                    6
+                ]
+            }
+        }
+    }
+}
