@@ -7,7 +7,7 @@ Benefits over other Lapis holder mods
 
 Original Description
 
-When leaving lapis in a Enchanting table it will not only stay there it will also be available at any other enchanting table
+When leaving lapis in an Enchanting table it will not only stay there it will also be available at any other enchanting table
 
 But only for the player that put it in, so no need to concern yourself with thieves
 
