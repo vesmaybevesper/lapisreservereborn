@@ -18,7 +18,7 @@ public abstract class ServerPlayerReserve extends Player {
 	/*public ServerPlayerReserve(Level level, GameProfile gameProfile) {
 		super(level, gameProfile);
 	}
-	*///?} 1.21.1
+	*///?} 1.21.1{
 	public ServerPlayerReserve(Level p_250508_, BlockPos p_250289_, float p_251702_, GameProfile p_252153_) {
 		super(p_250508_, p_250289_, p_251702_, p_252153_);
 	}
