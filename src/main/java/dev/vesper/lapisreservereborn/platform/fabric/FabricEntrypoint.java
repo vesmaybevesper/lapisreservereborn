@@ -2,7 +2,7 @@ package dev.vesper.lapisreservereborn.platform.fabric;
 
 //? fabric {
 
-import dev.kikugie.fletching_table.annotation.fabric.Entrypoint;
+/*import dev.kikugie.fletching_table.annotation.fabric.Entrypoint;
 import dev.vesper.lapisreservereborn.LapisReserveReborn;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,4 +14,4 @@ public class FabricEntrypoint implements ModInitializer {
 		LapisReserveReborn.onInitialize();
 	}
 }
-//?}
+*///?}

@@ -6,10 +6,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 //? fabric {
-import dev.vesper.lapisreservereborn.platform.fabric.FabricPlatform;
-//?} neoforge {
-/*import dev.vesper.lapisreservereborn.platform.neoforge.NeoforgePlatform;
- *///?}
+/*import dev.vesper.lapisreservereborn.platform.fabric.FabricPlatform;
+*///?} neoforge {
+import dev.vesper.lapisreservereborn.platform.neoforge.NeoforgePlatform;
+ //?}
 
 @SuppressWarnings("LoggingSimilarMessage")
 public class LapisReserveReborn {
@@ -35,9 +35,9 @@ public class LapisReserveReborn {
 
 	private static Platform createPlatformInstance() {
 		//? fabric {
-		return new FabricPlatform();
-		//?} neoforge {
-		/*return new NeoforgePlatform();
-		 *///?}
+		/*return new FabricPlatform();
+		*///?} neoforge {
+		return new NeoforgePlatform();
+		 //?}
 	}
 }
