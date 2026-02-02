@@ -2,7 +2,7 @@ package dev.vesper.lapisreservereborn.platform.neoforge;
 
 //? neoforge {
 
-import dev.vesper.lapisreservereborn.LapisReserveReborn;
+/*import dev.vesper.lapisreservereborn.LapisReserveReborn;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -15,4 +15,4 @@ public class NeoforgeClientEventSubscriber {
 		LapisReserveReborn.onInitializeClient();
 	}
 }
-//?}
+*///?}

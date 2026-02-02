@@ -1,6 +1,6 @@
 plugins {
 	id("mod-platform")
-	id("fabric-loom")
+	id("net.fabricmc.fabric-loom")
 }
 
 platform {
@@ -54,12 +54,7 @@ repositories {
 
 dependencies {
 	minecraft("com.mojang:minecraft:${prop("deps.minecraft")}")
-	mappings(
-		loom.layered {
-			officialMojangMappings()
-			if (hasProperty("deps.parchment")) parchment("org.parchmentmc.data:parchment-${prop("deps.parchment")}@zip")
-		})
-	modImplementation(libs.fabric.loader)
+	implementation(libs.fabric.loader)
 	implementation(libs.moulberry.mixinconstraints)
 	include(libs.moulberry.mixinconstraints)
 }
