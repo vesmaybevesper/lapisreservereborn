@@ -79,7 +79,6 @@ abstract class ModPlatformPlugin @Inject constructor() : Plugin<Project> {
 
 		extension.requiredJava.set(
 				JavaVersion.VERSION_25
-
 		)
 
 		if (isFabric) {
