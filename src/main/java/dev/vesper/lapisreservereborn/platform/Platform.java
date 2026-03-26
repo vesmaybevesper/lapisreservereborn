@@ -1,5 +1,6 @@
 package dev.vesper.lapisreservereborn.platform;
 
+@SuppressWarnings("")
 public interface Platform {
 	boolean isModLoaded(String modId);
 

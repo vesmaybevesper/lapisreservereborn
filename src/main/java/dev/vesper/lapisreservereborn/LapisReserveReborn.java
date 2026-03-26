@@ -15,7 +15,7 @@ import dev.vesper.lapisreservereborn.platform.fabric.FabricPlatform;
 public class LapisReserveReborn {
 
 	public static final String MOD_ID = /*$ mod_id*/ "lapisreservereborn";
-	public static final String MOD_VERSION = /*$ mod_version*/ "1.0.16";
+	public static final String MOD_VERSION = /*$ mod_version*/ "1.0.17";
 	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Lapis Reserve Reborn";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
