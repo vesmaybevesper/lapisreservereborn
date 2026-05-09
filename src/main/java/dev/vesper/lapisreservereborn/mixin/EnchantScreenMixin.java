@@ -41,7 +41,7 @@ public abstract class EnchantScreenMixin extends AbstractContainerMenu {
 
 	@Inject(method = "removed", at = @At("HEAD"))
 	private void close(Player player, CallbackInfo ci) {
-		((PlayerInterface) player.getInventory()).setLapisReserve(((Slot) this.slots.get(1)).getItem());
-		((Slot) this.slots.get(1)).setByPlayer(ItemStack.EMPTY);
+		((PlayerInterface) player.getInventory()).setLapisReserve(this.slots.get(1).getItem());
+		this.slots.get(1).setByPlayer(ItemStack.EMPTY);
 	}
 }
