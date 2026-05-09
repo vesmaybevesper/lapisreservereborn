@@ -1,1 +1,2 @@
 - Fix being unable to open enchanting tables
+  - Also fixes player data not being saved
