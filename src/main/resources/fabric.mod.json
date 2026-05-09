@@ -21,19 +21,16 @@
   "icon": "assets/icon.png",
   "license": "${license}",
   "environment": "*",
-  "accessWidener": "aw/${minecraft}.accesswidener",
+  "accessWidener": "aw/26.1.0.accesswidener",
   "entrypoints": {
     "main": [
-      "${group}.${id}.platform.fabric.FabricEntrypoint"
+      "dev.vesper.lapisreservereborn.platform.fabric.FabricEntrypoint"
     ],
     "client": [
-      "${group}.${id}.platform.fabric.FabricClientEntrypoint"
-    ],
-    "fabric-datagen": [
-      "${group}.${id}.platform.fabric.datagen.FabricDataGeneratorEntrypoint"
+      "dev.vesper.lapisreservereborn.platform.fabric.FabricClientEntrypoint"
     ]
   },
   "mixins": [
-    "${id}.mixins.json"
-  ],${dependencies}
+    "lapisreservereborn.mixins.json"
+  ]
 }
