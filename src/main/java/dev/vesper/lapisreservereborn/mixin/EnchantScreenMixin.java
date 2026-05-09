@@ -32,8 +32,11 @@ public abstract class EnchantScreenMixin extends AbstractContainerMenu {
 	}
 
 	@Inject(method = "<init>(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V", at = @At("RETURN"))
-	private void open(int i, Inventory inventory, ContainerLevelAccess containerLevelAccess, CallbackInfo ci) {
-		((Slot) this.slots.get(1)).setByPlayer(((PlayerInterface)inventory).getLapisReserve());
+	private void open(int i, Inventory inventory, ContainerLevelAccess access, CallbackInfo ci) {
+		ItemStack reserve = ((PlayerInterface) inventory).getLapisReserve();
+		if(reserve != null && !reserve.isEmpty()) {
+			this.slots.get(1).setByPlayer(reserve);
+		}
 	}
 
 	@Inject(method = "removed", at = @At("HEAD"))

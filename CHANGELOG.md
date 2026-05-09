@@ -1,1 +1,1 @@
-- Update to 26.1
+- Fix being unable to open enchanting tables
